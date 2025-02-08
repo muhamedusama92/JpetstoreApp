@@ -30,8 +30,7 @@ pipeline {
 
         stage('Deploy with Ansible') {
             steps {
-                sh "ansible-playbook -i inventory deploy.yml --become --become-user=root
-"
+                sh "ansible-playbook -i inventory deploy.yml --become --become-user=root"
             }
         }
     }

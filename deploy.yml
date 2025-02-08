@@ -20,5 +20,5 @@
       shell: docker pull muhamedusama92/jpetstore-app:latest
 
     - name: Run the new container
-      shell: docker run -d -p 8081:8080 --name jpetstore-container your-dockerhub-username/jpetstore-app:latest
+      shell: docker run -d -p 8081:8080 --name jpetstore-container muhamedusama92/jpetstore-app:latest
 

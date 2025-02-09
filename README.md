@@ -46,14 +46,14 @@ This project implements a **CI/CD pipeline** for the **JPetStore Java Web Applic
 ### **Clone the Repository**
 
 ```sh
-git clone https://github.com/muhamedusama92/jpetstoreApp-CICD.git
-cd jpetstoreApp-CICD
+git clone https://github.com/muhamedusama92/JpetstoreApp.git
+cd JpetstoreApp
 ```
 
 ### **Build and Test the Application**
 
 ```sh
-./mvnw clean package
+mvn clean package
 ```
 
 ### **Build and Run the Docker Container**
